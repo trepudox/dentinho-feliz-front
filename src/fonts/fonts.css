@@ -1,0 +1,58 @@
+/* @font-face {
+	font-family: 'Gabarito';
+	src: local('Gabarito'),
+				url('./Gabarito/Gabarito-Black.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-BlackItalic.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-Bold.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-BoldItalic.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-ExtraBold.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-ExtraBoldItalic.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-ExtraLight.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-ExtraLightItalic.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-Light.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-LightItalic.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-Medium.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-MediumItalic.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-Regular.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-RegularItalic.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-SemiBold.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-SemiBoldItalic.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-Thin.woff2') format('woff2'),
+				url('./Gabarito/Gabarito-ThinItalic.woff2') format('woff2');
+} */
+
+@font-face {
+	font-family: 'Gabarito-Regular';
+	src: local('Gabarito-Regular'),
+	url('./Gabarito/Gabarito-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Gabarito-Medium';
+	src: local('Gabarito-Medium'),
+	url('./Gabarito/Gabarito-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Gabarito-Black';
+	src: local('Gabarito-Black'),
+	url('./Gabarito/Gabarito-Black.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Gabarito-SemiBold';
+	src: local('Gabarito-SemiBold'),
+	url('./Gabarito/Gabarito-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Gabarito-Bold';
+	src: local('Gabarito-Bold'),
+	url('./Gabarito/Gabarito-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Gabarito-ExtraBold';
+	src: local('Gabarito-ExtraBold'),
+	url('./Gabarito/Gabarito-ExtraBold.woff2') format('woff2');
+}

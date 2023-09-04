@@ -1,0 +1,58 @@
+footer {
+	display: flex column;
+	background-color:#d2d2d2;
+	min-height: 300px;
+	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+
+li {
+	margin: 5px 0px;
+}
+
+.list-section {
+	display: flex;
+	justify-content: space-around;
+	padding: 50px 75px;
+}
+
+.list-section > * {
+	margin: 25px;
+}
+
+.dentinho-icon {
+	height: 128px;
+}
+
+.separator {
+	margin: 0;
+}
+
+.bottom-section {
+	display: flex column;
+	align-items: center;
+	background-color: rgb(185, 185, 185);
+	margin-top: auto;
+	margin-bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.bottom-section > * {
+	display: block;
+	color: rgba(0, 0, 0, 0.5);
+	text-shadow: none;
+}
+
+.reserved-rights {
+	padding: 15px 50px 7.5px 50px;
+}
+
+.talk-to-us {
+	padding: 7.5px 50px 15px 50px;
+}

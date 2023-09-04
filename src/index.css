@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	font-family: 'Gabarito-Regular';
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+	font-family: 'Gabarito-Bold';
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
+
+h2, h3, h4, h5, h6 {
+	font-family: 'Gabarito-Bold';
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+body {
+  margin: 0;
+	color: #302e30;
+
+	background-image: url("assets/background.jpg");
+	background-repeat: repeat;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px grey;
+  border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9c9c9c;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #757575;
+}
+
+
+/* 
+
+branco primario - #ffffff
+cinza primario (do fundo da home) - ​#d2d2d2
+cinza ​secundario 2 (do fundo da home - porem mais claro) - ​#f5f5f5
+cinza secundario (da borda do dentinho) - #302e30
+azul primario - #0088ff
+
+*/
